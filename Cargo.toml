@@ -2,5 +2,13 @@
 name = "dump"
 version = "0.1.0"
 authors = ["Ivan Kozik <ivan@ludios.org>"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/ludios/dump"
+homepage = "https://github.com/ludios/dump"
+description = """
+A simple macro that takes one or more variables and prints the name, type, and
+value of each variable.  The output is also prefixed with [source_file:line_no].
+"""
 
 [dependencies]
