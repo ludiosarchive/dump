@@ -9,16 +9,16 @@ This is designed to be a little more ergonomic than `println!("a={:?} b={:?}", a
 
 ### Usage
 
-Add this to your Cargo.toml:
+Add this to your `Cargo.toml`:
 
-```
+```toml
 [dependencies]
 dump = "0.1"
 ```
 
 and this to your crate root:
 
-```
+```rust
 #[macro_use]
 extern crate dump;
 ```
