@@ -1,5 +1,5 @@
 dump
-===
+====
 
 dump provides a macro `dump!` that takes one or more variables and prints the name, type, and value of each variable. The output is also prefixed with `[source_file:line_no]`.
 
@@ -7,7 +7,8 @@ This is designed to be a little more ergonomic than `println!("a={:?} b={:?}", a
 
 [![](http://meritbadge.herokuapp.com/dump)](https://crates.io/crates/dump)
 
-### Usage
+
+## Usage
 
 Add this to your `Cargo.toml`:
 
@@ -23,7 +24,8 @@ and this to your crate root:
 extern crate dump;
 ```
 
-### Example
+
+## Example
 
 ```rust
 #[macro_use]
